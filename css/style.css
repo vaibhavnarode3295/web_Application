@@ -1,0 +1,14 @@
+body{
+    font-family:'Poppins',sans-serif;
+    background:#f8fafc;
+}
+
+.hero{
+    height:90vh;
+    background:
+    linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+    url('../images/homePageImages/doctors-team.jpg');
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
