@@ -42,13 +42,23 @@
 
         </div>
 
-        <button class="md:hidden text-2xl">
+        <button id="menu-btn" class="md:hidden text-2xl">
             ☰
         </button>
 
     </div>
 
 </nav>
+
+<!-- MOBILE MENU -->
+<div id="mobile-menu" class="hidden md:hidden flex flex-col bg-white shadow-md px-6 py-4 space-y-4">
+
+    <a href="index.html" class="hover:text-blue-600">Home</a>
+    <a href="about.html" class="hover:text-blue-600">About</a>
+    <a href="products.html" class="hover:text-blue-600">Products</a>
+    <a href="contact.html" class="hover:text-blue-600">Contact</a>
+
+</div>
 
 
 <!-- HERO -->
@@ -344,6 +354,7 @@
 
 <!-- LINK JS -->
 <script src="js/script.js"></script>
+<script src="js/mobileNav.js"></script>
 
 </body>
 </html>

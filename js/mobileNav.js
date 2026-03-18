@@ -1,0 +1,16 @@
+document.addEventListener("DOMContentLoaded", function () {
+
+    const menuBtn = document.getElementById("menu-btn");
+    const mobileMenu = document.getElementById("mobile-menu");
+
+    menuBtn.addEventListener("click", function () {
+        mobileMenu.classList.toggle("hidden");
+
+        if (mobileMenu.classList.contains("hidden")) {
+            menuBtn.innerText = "☰";
+        } else {
+            menuBtn.innerText = "✖";
+        }
+    });
+
+});
